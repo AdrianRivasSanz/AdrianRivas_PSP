@@ -4,7 +4,33 @@ import java.io.InputStreamReader;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Hijo{
+public class Hijo extends Thread{
+
+    @Override
+    public void run() {
+        ArrayList<Libro> libros = new ArrayList<>();
+
+        for (int i = 0; i < 10; i++) {
+            Libro libro26 = new Libro("Fantastica");
+            Libro libro27 = new Libro("Fantastica");
+            Libro libro28 = new Libro("Fantastica");
+            Libro libro29 = new Libro("Fantastica");
+            Libro libro30 = new Libro("Fantastica");
+            libros.add(libro26);
+            System.out.println(libro26.genero);
+            libros.add(libro27);
+            System.out.println(libro27.genero);
+            libros.add(libro28);
+            System.out.println(libro28.genero);
+            libros.add(libro29);
+            System.out.println(libro29.genero);
+            libros.add(libro30);
+            System.out.println(libro30.genero);
+
+            System.out.println("");
+        }
+    }
+
     public static class Libro implements Serializable{
         String genero;
         public Libro (String genero){ this.genero = genero;}

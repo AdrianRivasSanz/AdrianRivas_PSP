@@ -68,15 +68,16 @@ public class Hijo{
         libros.add(libro24);
         libros.add(libro25);
 
-        String enviar;
-        int numeroLibros = 0;
 
+        int numeroLibros = 0;
+        String enviar;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 
         try{
+            enviar = new String();
             enviar = br.readLine();
-            for(Libro item:libros){
+            for (Libro item:libros){
                 if(enviar.equalsIgnoreCase(item.getGenero())){
                     numeroLibros++;
                 }

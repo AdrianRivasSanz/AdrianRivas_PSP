@@ -3,7 +3,20 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
 
-public class Padre{
+public class Padre extends Thread{
+
+    @Override
+    public void run() {
+        for (int i = 0; i < 10; i++) {
+            System.out.println((i+1));
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+
+    }
 
     public static void main(String[] args){
         String linea;
@@ -28,5 +41,12 @@ public class Padre{
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        Hijo hijo1 = new Hijo();
+        Padre padre1 = new Padre();
+        hijo1.start();
+        padre1.start();
+        try {
+            padre1.join();
+        } catch
     }
 }
