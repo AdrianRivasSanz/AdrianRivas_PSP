@@ -27,7 +27,12 @@ public class Hijo extends Thread{
             libros.add(libro30);
             System.out.println(libro30.genero);
 
-            System.out.println("");
+            System.out.println("Compraste " +(i+2)+ " libros");
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 
