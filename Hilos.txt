@@ -1,0 +1,103 @@
+import java.io.BufferedReader;
+import java.io. IOException;
+import java.io.InputStreamReader;
+
+public class Hijo {
+
+    public static void main(String[] args) throws InterruptedException, IOException {
+
+        String leer;
+
+
+// BufferedReader para recibir datos del padre
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        leer = new String();
+
+        leer = br.readLine();
+
+        Operaciones op1 = new Operaciones(Integer.parseInt(leer.split(",")[0]));
+        op1.start();
+        op1.join();
+        Operaciones op2 = new Operaciones(Integer.parseInt(leer.split(",")[1]));
+        op2.start();
+        op2.join();
+
+
+    }
+
+    public static class Operaciones extends Thread {
+
+        private Integer num;
+        private int resultado;
+
+        public Operaciones(Integer num) {
+            this.num = num;
+        }
+
+        public void run() {
+            System.out.println("Tabla de multiplicar del " + num);
+            System.out.println("===============================");
+            try {
+                for (int i = 1; i <= 2; i++) {
+                    resultado = num * i;
+                    System.out.println(num + " x " + i + "= " + resultado);
+                }
+                System.out.println("Fin tabla del " + num);
+            } catch (Exception ex) {
+            }
+        }
+    }
+}
+
+###############################
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
+
+public class Padre {
+
+public static void main(String args[]) {
+String line;
+
+try {
+
+// Llamar a la clase Hijo compilada anteriormente
+
+Process hijo = new ProcessBuilder("java","Hijo").start();
+
+// Buffer para datos del proceso hijo
+
+BufferedReader br = new BufferedReader(new InputStreamReader(hijo.getInputStream()));
+
+// Stream salida
+
+PrintStream ps = new PrintStream(hijo.getOutputStream(), true);
+
+// Buffer que lee de consola
+
+BufferedReader in = new BufferedReader(new InputStreamReader (System. in));
+
+System.out.println("Enviar un mensaje al proceso hijo:");
+
+// Enviar mensaje al hijo
+
+line = in.readLine();
+
+ps.println(line);
+
+// Recibir información del padre 
+
+while(1){
+line = br.readLine();
+System.out.println(line) ;
+}
+
+ } catch (IOException e) {
+System.out.println("Error : " + e.getMessage());
+}
+
+}
+}
