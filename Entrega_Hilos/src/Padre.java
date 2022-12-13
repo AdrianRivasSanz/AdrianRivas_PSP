@@ -47,6 +47,8 @@ public class Padre extends Thread{
         padre1.start();
         try {
             padre1.join();
-        } catch
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
