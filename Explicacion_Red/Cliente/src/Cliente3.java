@@ -5,11 +5,11 @@ import java.net.Socket;
 public class Cliente3 {
     public static void main(String[] args) {
         try {
-            Socket cliente = new Socket("127.0.0.1",9999);
+            Socket cliente = new Socket("127.0.0.1", 1234);
 
             ObjectInputStream inObjeto = new ObjectInputStream(cliente.getInputStream());
 
-            Persona persona = (Persona)inObjeto.readObject();
+            Persona persona = (Persona) inObjeto.readObject();
             System.out.println(persona.getNombre());
 
         } catch (IOException e) {

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7e8ea898-662f-4be7-aa1f-7b1f8ef430e4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Entrega_Red.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servidor/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cliente.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servidor/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servidor/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servidor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servidor/Servidor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servidor/src/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servidor/src/Hilo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servidor/src/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/.idea/Explicacion_Redes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Cliente/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Cliente/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Cliente/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Cliente/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Cliente/Cliente.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/Servidor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/out/production/Servidor/Hilo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/out/production/Servidor/Persona.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/out/production/Servidor/Servidor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/out/production/Servidor/Servidor2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/out/production/Servidor/Servidor3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/src/Hilo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/src/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/src/Servidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/src/Servidor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Servidor/src/Servidor3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/Entrega_Red.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Explicacion_Red/.idea/Explicacion_Red.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Servidor/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente/Cliente.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente/out/production/Cliente/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Cliente/out/production/Cliente/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente/out/production/Cliente/Cliente2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Cliente/out/production/Cliente/Cliente2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente/out/production/Cliente/Cliente3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Cliente/out/production/Cliente/Cliente3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente/out/production/Cliente/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Cliente/out/production/Cliente/Persona.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Cliente/src/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente/src/Cliente2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Cliente/src/Cliente2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente/src/Cliente3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Cliente/src/Cliente3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Cliente/src/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Explicacion_Red/Cliente/src/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/Servidor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/out/production/Servidor/Hilo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/out/production/Servidor/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/out/production/Servidor/Servidor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/out/production/Servidor/Servidor2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/out/production/Servidor/Servidor3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/src/Hilo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/src/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/src/Servidor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/src/Servidor2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servidor/src/Servidor3.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JAs4nQqZZ7Z1CXthkjv2zOXToK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e8ea898-662f-4be7-aa1f-7b1f8ef430e4" name="Changes" comment="" />
+      <created>1671532034587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671532034587</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
