@@ -1,3 +1,5 @@
+package Servidor.src;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 
@@ -5,10 +7,9 @@ public class Biblioteca {
 
     public static void main(String[] args) {
         ServerSocket serverSocket = null;
-        //arrancado el servidor
 
         try {
-            serverSocket = new ServerSocket(2222);
+            serverSocket = new ServerSocket(4321);
             while(true)
             {
                 new Hilo(serverSocket.accept()).start();

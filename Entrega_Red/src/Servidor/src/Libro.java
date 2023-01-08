@@ -1,3 +1,5 @@
+package Servidor.src;
+
 import java.io.Serializable;
 import java.util.Collection;
 
@@ -18,7 +20,7 @@ public class Libro{
     @Override
     public String toString() {
         return "Libro {" +
-                "genero =' + genero"
+                "genero =' + genero " +
                 '}';
     }
 }
