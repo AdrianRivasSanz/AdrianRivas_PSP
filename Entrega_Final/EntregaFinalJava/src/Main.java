@@ -17,7 +17,7 @@ public class Main {
         BufferedWriter bwr;
 
         //CREAMOS UN FICHERO DE BASE DE DATOS Y ADJUNTAMOS LA RUTA EN LA QUE LO VAMOS A GUARDAR
-        File ficheroBD = new File("\\Users\\adrianrivas\\IdeaProjects\\AdrianRivas_PSP\\Entrega_Final\\EntregaFinalJava\\src\\ficheroBD.txt");
+        File ficheroBD = new File("/Users/adrianrivas/IdeaProjects/AdrianRivas_PSP/Entrega_Final/EntregaFinalJava/src/ficheroBD.txt");
         PrintWriter printWriter = null;
 
 
@@ -30,6 +30,7 @@ public class Main {
         try {
             System.out.println(InetAddress.getLocalHost());
             System.out.println("Puerto: " + 4321);
+            System.out.println("Se está creando");
             System.out.println("Ingrese x y 9 para dejar de registrar usuarios");
             server = new ServerSocket(4321);
             BufferedWriter bw = new BufferedWriter(new FileWriter(ficheroBD));
@@ -60,7 +61,7 @@ public class Main {
                         usuariosRecuperados.add(usuarioRecuperado);
 
                         // COMUNICACIÓN
-                        // MANDAMOS EL FICHERO A ANDROID
+                        // MANDAMOS EL HILO A ANDROID
                         for (Usuario usuarioDeFichero : usuariosRecuperados) {
                             System.out.println("Dentro del Arraylist " + usuarioDeFichero.getNombre());
                         }
@@ -79,9 +80,10 @@ public class Main {
                                 password1 = it;
                             }
                         }
+                        //METO EL PRIMER USUARIO
                         usuarioRecuperado = new Usuario(nombre1, password1);
                         System.out.println("Usuario " + usuarioRecuperado.getNombre() + " introducido");
-                        usuariosRecuperados.add(usuarioRecuperado);  //Meto el 1er usuario
+                        usuariosRecuperados.add(usuarioRecuperado);
                     }
                 }//TERMINA LA LECTURA DE FICHERO Y SE EMPIEZA A ESCRIBIR
 

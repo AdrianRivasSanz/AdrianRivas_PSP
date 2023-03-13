@@ -11,7 +11,7 @@ public class Usuario implements Serializable {
         this.password = password;
     }
 
-    public Usuario(){
+    public Usuario() {
 
     }
 
@@ -19,12 +19,15 @@ public class Usuario implements Serializable {
     public String getNombre() {
         return nombre;
     }
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
     public String getPassword() {
         return password;
     }
+
     public void setPassword(String password) {
         this.password = password;
     }
