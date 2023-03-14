@@ -17,7 +17,7 @@ public class Main {
         BufferedWriter bwr;
 
         //CREAMOS UN FICHERO DE BASE DE DATOS Y ADJUNTAMOS LA RUTA EN LA QUE LO VAMOS A GUARDAR
-        File ficheroBD = new File("/Users/adrianrivas/IdeaProjects/AdrianRivas_PSP/Entrega_Final/EntregaFinalJava/src/ficheroBD.txt");
+        File ficheroBD = new File("AdrianRivas_PSP/Entrega_Final/EntregaFinalJava/src/ficheroBD.txt");
         PrintWriter printWriter = null;
 
 
